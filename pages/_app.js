@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
           name="description"
           content="E-commerce store built with Next.js and Stripe checkout by Gabriel"
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" legacyBehavior/>
       </Head>
       <CartProvider>
         <div className="min-h-screen flex flex-col">

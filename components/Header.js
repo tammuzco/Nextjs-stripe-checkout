@@ -11,7 +11,7 @@ const Header = () => {
     <header className="sticky top-0 bg-white z-10 shadow">
       <div className="container xl:max-w-screen-xl mx-auto p-6 flex justify-between">
         <Logo />
-        <Link href="/cart">
+        <Link href="/cart" legacyBehavior>
           <a className="flex items-center space-x-1 text-gray-700 hover:text-gray-900">
             <div className="relative">
               <ShoppingCartIcon className="w-7 h-7 flex-shrink-0" />
